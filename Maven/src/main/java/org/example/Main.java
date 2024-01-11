@@ -6,6 +6,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
+// will need to add real username and password to the connection string
 public class Main {
     public static void main(String[] args) {
         MongoClient client = MongoClients.create("mongodb+srv://<yourUser>:<yourPassword>@cluster0.vpy6bvu.mongodb.net/?retryWrites=true&w=majority");
